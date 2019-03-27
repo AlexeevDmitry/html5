@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+}
+
+header {
+    height: 253px;
+    background: #445162;
+    padding: 50px;
+}
+
+header .product h2 {
+    height: 44px;
+    width: 367px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 60px;
+    font-weight: 400;
+    padding-bottom: 51px;
+}
+
+header .product {
+    width: 458px;
+    height: 232px;
+    ;
+    float: left;
+
+}
+
+header .product ul {
+    list-style: none;
+    height: 137px;
+
+}
+
+header .product li {
+    width: 422px;
+
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    list-style-image: url(images/check_icon.png);
+    margin-left: 33px;
+}
+
+header .demo {
+    width: 469px;
+    height: 214px;
+    background-color: #ffffff;
+    float: right;
+}
+
+.about_horse {
+    height: 720px;
+    background: gray;
+    object-fit: fill;
+}
+
+
+.song {
+    height: 150px;
+    background: gray;
+}
+
+.song audio {
+    padding: 50px;
+}
+
+.write {
+    height: 250px;
+    background: #c0c0c0;
+}
+
+.write h2 {
+    font-size: 35px;
+    text-align: center;
+    padding: 50px
+}
+
+.letter {
+    width: 100%;
+    text-align: center;
+}
+
+input,
+button {
+    display: inline-block;
+    outline: none;
+    padding: 9px 18px;
+    margin-right: 10px;
+    border: none;
+}
+
+input {
+    width: 30%;
+    background-color: #7ec4ce;
+}
+
+input[placeholder] {
+    color: #fff;
+}
+
+button {
+    padding: 9px 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    background-color: #7ec4ce;
+}
